@@ -1,0 +1,136 @@
+/* Profile.css */
+
+/* Center the profile details on the page */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top of the container */
+    height: fit-content;
+    margin-top: 50px; /* Adjust the top margin as needed */
+}
+
+/* Common styling for user details and form */
+.profile-details {
+    
+    max-width: 500px;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: left; /* Align text to the left */
+    position: relative;
+}
+
+.profile-details h2,
+.profile-details p,
+.profile-details strong {
+    text-align: left; /* Align text to the left */
+}
+
+/* Move the whole text to the left */
+.profile-details p,
+.profile-details h2,
+.profile-details strong {
+    margin-left: 0;
+}
+
+/* Edit button at the top right corner */
+.edit-button {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+}
+
+.profile-details h2 {
+    color: #333;
+    font-size: 28px;
+}
+
+.profile-details p {
+    color: #666;
+   
+    font-size: 18px;
+}
+
+.profile-details strong {
+    color: #333;
+   
+    font-size: 20px;
+}
+
+/* Form styling for editing details */
+.profile-form {
+    text-align: left;
+}
+
+.profile-form label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.profile-form input {
+    width: 100%;
+    padding: 12px;
+   
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Profile Image styling */
+.profile-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+}
+
+.profile-image-input {
+    display: none;
+}
+
+.profile-image-icon {
+    cursor: pointer;
+}
+
+.profile-image-icon i {
+    color: #333;
+    font-size: 24px;
+}
+
+.profile-image-icon:hover i {
+    background-color: #FFBFBF;
+}
+
+/* Save, Cancel, and Edit buttons in edit form */
+.save-button,
+.cancel-button,
+.edit-button {
+    background-color: #fb9696;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px;
+   
+}
+
+
+
+/* Add this style for the profile icon */
+.profile-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #fb9696;
+    color: white;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 5px;
+}

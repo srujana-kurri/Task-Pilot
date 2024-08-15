@@ -1,0 +1,195 @@
+
+/* App.css */
+
+/* Global st */
+
+/* Sidebar */
+.sidebar-title{
+  /* height:70vh; */
+  margin-top: 15px;
+text-align: center;
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.Sidebar ul li{
+  list-style-type: none;
+  padding: 10px;
+  /* color: rgb(236, 238, 234); */
+ 
+  
+}
+.Sidebar ul li{
+  list-style-type: none;
+  padding: 1rem;
+  margin-right:0;
+}
+.Sidebar ul li i{
+  padding: 10px;
+}
+.Sidebar ul a{
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.Sidebar ul a:hover{
+  color: black;
+  
+}
+
+.Sidebar ul li:hover{
+  text-decoration: none;
+  background-color: rgb(123, 128, 132);
+  padding:1rem;
+  color: black;
+  border-radius: 20px; 
+ 
+}
+
+.Sidebar{
+  border: 2px solid white;
+}
+
+.sidebar-col{
+  /* background-image: linear-gradient(grey,white);
+  background-blend-mode: color-dodge; */
+  background-color:rgba(45, 44, 46, 0.8)
+  /* background-color: #746288; */
+}
+
+.side-link{
+  color: rgb(96, 150, 180);
+}
+
+.content-col{
+  /* height: 80vh; */
+  /* height: fit-content; */
+  height: 87vh;
+  overflow-y: scroll;
+  background-color:#333335;
+}
+
+
+.dash-charts{
+  height: 50vh;
+}
+
+.quote{
+  background-color: aliceblue;
+}
+.quote h5{
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details{
+  background-color: #F8E8EE;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.task-container{
+  background-color: aliceblue ;
+}
+
+.task-options span{
+ cursor: pointer;
+}
+.task-icon{
+  cursor:pointer;
+}
+.task-container input{
+  cursor: pointer;
+  
+  /* size: 20px; */
+}
+.calendar-container{
+  height:100%;
+  width: 90%;
+  margin:auto;
+}
+
+.fc{
+  background-color: #8282e4;
+  width: 95%;
+  height:80vh;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.fc-day {
+  border: 1px solid #ccc;
+  background-color: aliceblue;
+  color:black !important;
+}
+
+.fc-event {
+  background-color: rgb(132, 255, 0);
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+}
+
+.react-draggable {
+  cursor: move;
+}
+
+.list{
+ 
+  border: 2px solid white;
+  margin:10px 0px;
+  border-radius: 10px;
+
+}
+
+.dashboard{
+  border: 2px solid white;
+  align-self: center;
+  margin-top:10px;
+  height: 83vh;
+}
+
+.upcoming-details{
+  color: white;
+  background-color: rgba(252, 87, 87, 0.3);
+  border: 2px solid   rgba(255, 0, 119, 0.5);
+}
+.upcoming-tasks h4{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  
+}
+.did-details{
+  color: white;
+  background-color: rgba(87, 252, 134, 0.3);
+  border: 2px solid  rgba(66, 240, 92, 0.5);
+}
+.did-tasks h4{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+
+}
+.reminder{
+  background-color: rgb(158, 188, 230);
+  border: 2px solid cornflowerblue;
+  border-radius: 10px;
+}
+.reminder p{
+  text-decoration: underline;
+}
+
+.task-tabs button{
+  border: none;
+  
+}
+.active-tab{
+  border-bottom: 4px solid green !important;
+}
+.upcoming{
+  color: white;
+  background-color: rgba(230, 230, 158, 0.655);
+  border: 2px solid rgba(255, 255, 3, 0.986);
+}

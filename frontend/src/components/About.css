@@ -1,0 +1,64 @@
+/* About.css */
+
+/* Top Navigation Bar */
+.top-navbar {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* About Container */
+  .about-container {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%; /* Occupy the whole width */
+    
+  }
+  
+  /* Left side with image */
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Right side card with information */
+  .about-card {
+    width: 60%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height:100%;
+  }
+  
+  .about-card h2 {
+    color: #333;
+  }
+  
+  .about-card p {
+    color: #666;
+  }
+  
+  .about-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-card li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-card li span {
+    margin-right:10px;
+}
